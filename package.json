@@ -1,0 +1,32 @@
+{
+  "name": "fix-and-extend",
+  "version": "1.0.0",
+  "description": "A brief description of the project.  Explanation of your Zod schema: what it validates and why.  Instructions on how to run the code.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "nodemon fix.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElliesWorld/TypeScript-Zod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ElliesWorld/TypeScript-Zod/issues"
+  },
+  "homepage": "https://github.com/ElliesWorld/TypeScript-Zod#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.1.11"
+  }
+}
