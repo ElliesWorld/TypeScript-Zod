@@ -11,11 +11,11 @@ This project manages inventory for a bakery specializing in Swedish pastries.
 const PastrySchema = z.object({
   name: z.string().min(1, "Name is required"),
   price: z.string().min(1, "Price is required")
-});
+});```
 
-name: Must be a non-empty string 
-price: Must be a non-empty string 
-id: Is not included in schema because it's auto-generated
+**name:** Must be a non-empty string 
+**price:** Must be a non-empty string 
+**id:** Is not included in schema because it's auto-generated
 
 # Installation:
 
